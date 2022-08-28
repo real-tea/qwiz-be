@@ -9,7 +9,7 @@ if (process.env.NODE_ENV !== 'production') {
 	if (envFound.error) {
 		// This error should crash whole process
 
-		throw new Error("⚠️  Couldn't find .env file  ⚠️");
+		throw new Error("env file not found");
 	}
 }
 
